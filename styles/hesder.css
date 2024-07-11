@@ -1,15 +1,8 @@
 .header {
     display: block;
-    background: linear-gradient(180deg, rgba(255, 228, 215, 1), rgba(255, 255, 255, 1));
+    background: linear-gradient(180deg, rgb(215, 216, 255), rgba(255, 255, 255, 1));
     margin-bottom: 2rem;
     box-shadow: none;
-}
-
-.header__logo {
-    padding: 2rem;
-    margin: auto;
-    cursor: pointer;
-    z-index: 10;
 }
 
 .header__main {

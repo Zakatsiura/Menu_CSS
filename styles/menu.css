@@ -1,11 +1,10 @@
 .header__logo_mobile {
     display: none;
-    padding: 15px 0;
 }
 
 .header__logo {
-    padding-left: 1rem;
-    margin-top: -4px;
+    padding: 15px 0;
+    width: 300px;
 }
 
 .container {
@@ -15,6 +14,7 @@
     width: 100%;
     max-width: 1200px;
     margin: auto;
+    background: linear-gradient(180deg, rgb(215, 216, 255), rgba(255, 255, 255, 1));
 }
 
 .nav_list {
@@ -23,10 +23,16 @@
     display: flex;
     justify-content: flex-start;
     gap: 3rem;
+    list-style-type: none
 }
 
 .nav_list_item:hover {
-    color: var(--red-bg);
+    color: var(--blue-bg);
+}
+
+.nav_list_item a {
+    text-decoration: none;
+    color: inherit
 }
 
 a[href="#menu"],
@@ -47,13 +53,8 @@ a[href="#menu"] img {
     .header__logo_mobile {
         display: flex;
         margin: 0 auto;
-        margin-top: 2px;
         cursor: pointer;
-    }
-
-    .header__logo {
-        padding-left: 2rem;
-        margin: 0;
+        width: 300px;
     }
 
     .popover {
@@ -91,9 +92,9 @@ a[href="#menu"] img {
         display: flex;
         justify-content: center;
         position: relative;
-        height: 345px;
+        height: 445px;
         width: 100%;
-        background: linear-gradient(180deg, rgba(255, 228, 215, 1), rgba(255, 255, 255, 1));
+        background: linear-gradient(180deg, rgb(215, 216, 255), rgba(255, 255, 255, 1));
     }
 
     .nav_list {
@@ -109,11 +110,11 @@ a[href="#menu"] img {
         font-size: 31px;
         line-height: 36px;
         font-weight: 400;
-        color: var(--red-bg);
+        color: var(--blue-bg);
     }
 
     .nav_list_item:hover {
-        background-color: var(--red-bg);
+        background-color: var(--blue-bg);
     }
 
     .nav_list_item {
