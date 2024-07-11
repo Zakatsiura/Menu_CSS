@@ -1,0 +1,26 @@
+@import url('header.css');
+@import url('menu.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+:root {
+    --red-bg: rgba(204, 85, 32, 1);
+    --white-bg: rgba(248, 248, 248, 1);
+    --white-txt: rgba(255, 255, 255, 1);
+    --dark-txt: rgba(35, 35, 38, 0.7);
+    --input-border: rgb(204, 204, 204);
+    --radio-border: rgba(255, 203, 186, 1);
+    --btn-bg: rgba(119, 118, 126, 1);
+    --fox-bg: rgba(255, 233, 208, 1);
+    --devider-color: rgb(199, 177, 177);
+    --popup-color: rgba(0, 0, 0, 0.8);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
