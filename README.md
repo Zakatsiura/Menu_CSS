@@ -1,1 +1,1 @@
-Adaptive Menu with CSS only (noJS)
+Adaptive Menu with CSS only (no JS)
