@@ -1,1 +1,1 @@
-Adaptive Vtnu with CSS only
+Adaptive Menu with CSS only (noJS)
